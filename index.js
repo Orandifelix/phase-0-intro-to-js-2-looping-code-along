@@ -17,15 +17,22 @@
 
 // wrapGifts(gifts);
 
-const names = [ "Guadalupe", "Ollie", "Aki" ];
-const messages = [ ];
-function writeCards(names,eventname) {
-    for (let counter = 0;  counter < names.length; counter++) {
-        console.log (messages.push(`Thank you, ${names[counter]}, for the wonderful surprise gift!`))
-    //   debugger;
-    }
-    return messages
+
+
+
+function writeCards(names, eventName) {
+  const messages = [];
+  for (let i = 0; i < names.length; i++) {
+    const message = `Thank you, ${names[i]}, for the wonderful ${eventName} gift!`;
+    messages.push(message);
+  }
+  return messages;
 }
+
+const messages = writeCards(names, eventName);
+console.log(messages);
+
+
 
 function countDown() {
     let number = 10;
