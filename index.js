@@ -28,9 +28,11 @@ function writeCards(names, eventName) {
   }
   return messages;
 }
-
-const messages = writeCards(names, eventName);
+const names = ["Guadalupe", "Ollie", "Aki"];
+const messages = writeCards(names, "surprise" );
 console.log(messages);
+
+
 
 
 
