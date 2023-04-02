@@ -33,6 +33,23 @@ const messages = writeCards(names, "surprise" );
 console.log(messages);
 
 
+// WHILE LOOP
+// function writeCards(names, eventName) {
+//   i = 0;
+//   while (i < names.length) {
+//     const message = `Thank you, ${names[i]}, for the wonderful ${eventName} gift!`;
+//     messages.push(message);
+//     i++;
+
+//   }
+//   return messages;
+// }
+
+// const names = ["Guadalupe", "Ollie", "Aki"];
+// const messages = writeCards(names, "surprise" );
+// console.log(messages);
+
+
 
 
 
@@ -45,3 +62,12 @@ function countDown() {
 
     }
 }
+
+
+
+// FOR LOOP 
+// function countDown(){
+//   for(let number = 10; number > -1; number--){
+//     console.log(number);
+// }
+// }
